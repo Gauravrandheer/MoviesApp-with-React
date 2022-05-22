@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+
+.banner-card{
+  height:70vh;
+  width:100%;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  position: relative;
+}
+
+.banner-title{
+  position: absolute;
+  color: white;
+  top:45vh;
+  height: 4.5vh;
+  margin-left: 5vw;
+  font-size: 3rem;
+ }
+
+.banner-img{
+  height: 70vh;
+  width: 100%;
+}
+
+.banner-text{
+  position:absolute;
+  top:55vh;
+  color:white;
+  height:4.5vh;
+  margin-left: 5vw;
+  text-align: justify;
+  padding-right: 1rem;
+}
+
+.movies-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem ;
+
+}
+
+.movie-card{
+  margin: 1rem;
+  width: 20vw;
+  color: white;
+  position: relative;
+}
+
+.movie-title{
+  color:white;  
+  position: absolute;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.movie-button{
+  position: absolute;
+  bottom: 2rem;
+}
+
+/* Favorites.js */
+.genre-selector{
+ padding: 3rem;
+}
+
+.favourite-table{
+  padding: 3rem;
+}
